@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
+    color: #343a40; /* Dark text color */
+}
+
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+}
+
+.table-responsive {
+    margin-bottom: 2rem; /* Space below the table */
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+}
+
+/* Table Styles */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table thead th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+}
+
+.table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+
+.table tbody td {
+    border-color: #dee2e6; /* Light border color */
+}
+
+/* Button Styles */
+.btn-primary, .btn-success {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+#searchBtn {
+    margin-left: auto;
+    display: block;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-footer {
+    border-top: none;
+    padding: 1rem 2rem;
+}
+
+/* Input Styles */
+.form-control, .form-select {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+/* Pagination Styles */
+.pagination .page-link {
+    color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .table-responsive {
+        margin-bottom: 1rem;
+    }
+
+    #searchBtn {
+        width: 100%;
+    }
+
+    .modal-body {
+        padding: 1rem;
+    }
+
+    .modal-footer {
+        padding: 0.5rem 1rem;
+    }
+}
